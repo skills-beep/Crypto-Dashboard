@@ -30,6 +30,9 @@ Make sure you have Node.js or Bun installed. Then:
 ![image](https://github.com/user-attachments/assets/b92cd99f-9d4e-45d9-bcc6-1f3683e94dc2)
 ![image](https://github.com/user-attachments/assets/725c7287-27db-443b-9a6f-8a7b040b9000)
 ![image](https://github.com/user-attachments/assets/cd193400-6621-4c9b-84d4-d17c0f8a5452)
+![image](https://github.com/user-attachments/assets/59d86076-0fb7-4bad-8107-44f8e0af6065)
+![image](https://github.com/user-attachments/assets/33c7a9cc-59b8-4582-91aa-e8c5c3c60813)
+
 
 
 
