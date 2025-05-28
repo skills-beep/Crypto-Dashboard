@@ -1,19 +1,38 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
   body {
-    @apply bg-background text-foreground antialiased;
+    @apply bg-background text-foreground antialiased font-inter;
+  }
+  
+  * {
+    @apply border-border;
   }
 }
 
 .glass-card {
-  @apply bg-secondary bg-opacity-20 backdrop-blur-lg border border-white border-opacity-10 shadow-lg;
+  @apply bg-card/80 backdrop-blur-xl border border-white/10 shadow-xl;
+  background: linear-gradient(135deg, rgba(17, 17, 17, 0.9) 0%, rgba(26, 26, 29, 0.8) 100%);
+}
+
+.glass-card:hover {
+  @apply transform scale-105 shadow-glow transition-all duration-300;
 }
 
 .crypto-chart {
-  @apply h-[300px] w-full;
+  @apply h-[400px] w-full;
+}
+
+.neon-text {
+  @apply text-transparent bg-clip-text bg-gradient-to-r from-neon-blue to-neon-green;
+}
+
+.glow-border {
+  @apply border border-neon-blue/50 shadow-glow;
 }
 
 @keyframes pulse-subtle {
@@ -27,4 +46,8 @@
 
 .animate-pulse-subtle {
   animation: pulse-subtle 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.gradient-bg {
+  background: linear-gradient(135deg, #0A0A0B 0%, #1A1A1D 50%, #0A0A0B 100%);
 }
